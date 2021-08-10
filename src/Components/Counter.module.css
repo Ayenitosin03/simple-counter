@@ -11,7 +11,8 @@ body {
   .counterContainer {
       background-color:whitesmoke;
       border: none;
-      margin-top:12em;
+      margin: auto;
+      /* margin-top:12em; */
       padding: 50px;
       height: 100%;
 
