@@ -14,7 +14,6 @@ body {
       margin-top: 12rem;
       padding: 50px;
       height: 100%;
-
   }
   .count {
       text-align: center;
@@ -52,6 +51,7 @@ body {
     border: none;
     border-radius: 70px;
     box-shadow: 0 7px #999;
+    margin: 10px;
 }
 
 .reset:hover {background-color:#15dfdfb6}
