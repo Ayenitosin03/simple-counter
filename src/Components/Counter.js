@@ -11,14 +11,15 @@ import { useState } from "react";
          <div className={classes.counterContainer}>
             <h1 className={classes.count}>{counter}</h1> 
             <div>
-            <button type="button" onClick={buttonIncrement} className={classes.increase}>
-                +Increase
+           
+            <button type="button" onClick={buttonDecrement} className={classes.decrease}>
+              -
             </button>
             <button type="button" onClick={buttonReset} className={classes.reset}>
              Reset
             </button>
-            <button type="button" onClick={buttonDecrement} className={classes.decrease}>
-              -Decrease
+             <button type="button" onClick={buttonIncrement} className={classes.increase}>
+                +
             </button>
             </div>
          </div>

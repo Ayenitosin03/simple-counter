@@ -12,8 +12,9 @@ body {
       background-color:whitesmoke;
       border: none;
       margin-top: 12rem;
-      padding: 50px;
+      padding: 15px;
       height: 100%;
+
   }
   .count {
       text-align: center;
