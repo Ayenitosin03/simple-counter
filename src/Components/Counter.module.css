@@ -14,6 +14,7 @@ body {
       margin-top: 12rem;
       padding: 15px;
       height: 100%;
+      
 
   }
   .count {
@@ -84,4 +85,14 @@ body {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-  
+  @media(max-width:768px){
+    .counterContainer {
+      background-color:whitesmoke;
+      border: none;
+      margin-top: 12rem;
+      padding: 10px;
+      height: 100%;
+      max-width: 100%;
+  }
+}
+
